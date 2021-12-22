@@ -5,7 +5,7 @@ import numpy as np
 
 def LapSRN_x2(img):
     sr = cv2.dnn_superres.DnnSuperResImpl_create()
-    path = 'models/LapSRN/LapSRN_x2.pb'
+    path = 'SR-with-opencv/models/LapSRN/LapSRN_x2.pb'
     sr.readModel(path)
     sr.setModel('lapsrn',2)
     img = np.array(img.convert("RGB"))
@@ -16,7 +16,7 @@ def LapSRN_x2(img):
 
 def ESPCN_x2(img):
     sr = cv2.dnn_superres.DnnSuperResImpl_create()
-    path = 'models/ESPCN/ESPCN_x2.pb'
+    path = 'SR-with-opencv/models/ESPCN/ESPCN_x2.pb'
     sr.readModel(path)
     sr.setModel('espcn',2)
     img = np.array(img.convert("RGB"))
@@ -26,7 +26,7 @@ def ESPCN_x2(img):
 
 def FSRCNN_x2(img):
     sr = cv2.dnn_superres.DnnSuperResImpl_create()
-    path = 'models/FSRCNN/FSRCNN_x2.pb'
+    path = 'SR-with-opencv/models/FSRCNN/FSRCNN_x2.pb'
     sr.readModel(path)
     sr.setModel('fsrcnn',2)
     img = np.array(img.convert("RGB"))
@@ -36,7 +36,7 @@ def FSRCNN_x2(img):
 
 def EDSR_x2(img):
     sr = cv2.dnn_superres.DnnSuperResImpl_create()
-    path = 'models/EDSR/EDSR_x2.pb'
+    path = 'SR-with-opencv/models/EDSR/EDSR_x2.pb'
     sr.readModel(path)
     sr.setModel('edsr',2)
     img = np.array(img.convert("RGB"))
@@ -48,7 +48,7 @@ def EDSR_x2(img):
 
 def ESPCN_x3(img):
     sr = cv2.dnn_superres.DnnSuperResImpl_create()
-    path = 'models/ESPCN/ESPCN_x3.pb'
+    path = 'SR-with-opencv/models/ESPCN/ESPCN_x3.pb'
     sr.readModel(path)
     sr.setModel('espcn',3)
     img = np.array(img.convert("RGB"))
@@ -58,7 +58,7 @@ def ESPCN_x3(img):
 
 def FSRCNN_x3(img):
     sr = cv2.dnn_superres.DnnSuperResImpl_create()
-    path = 'models/FSRCNN/FSRCNN_x3.pb'
+    path = 'SR-with-opencv/models/FSRCNN/FSRCNN_x3.pb'
     sr.readModel(path)
     sr.setModel('fsrcnn',3)
     img = np.array(img.convert("RGB"))
@@ -68,7 +68,7 @@ def FSRCNN_x3(img):
 
 def EDSR_x3(img):
     sr = cv2.dnn_superres.DnnSuperResImpl_create()
-    path = 'models/EDSR/EDSR_x3.pb'
+    path = 'SR-with-opencv/models/EDSR/EDSR_x3.pb'
     sr.readModel(path)
     sr.setModel('edsr',3)
     img = np.array(img.convert("RGB"))
@@ -78,7 +78,7 @@ def EDSR_x3(img):
 # ///////////////////////////////////////////////////////
 def LapSRN_x4(img):
     sr = cv2.dnn_superres.DnnSuperResImpl_create()
-    path = 'models/LapSRN/LapSRN_x4.pb'
+    path = 'SR-with-opencv/models/LapSRN/LapSRN_x4.pb'
     sr.readModel(path)
     sr.setModel('lapsrn',4)
     img = np.array(img.convert("RGB"))
@@ -89,7 +89,7 @@ def LapSRN_x4(img):
 
 def ESPCN_x4(img):
     sr = cv2.dnn_superres.DnnSuperResImpl_create()
-    path = 'models/ESPCN/ESPCN_x4.pb'
+    path = 'SR-with-opencv/models/ESPCN/ESPCN_x4.pb'
     sr.readModel(path)
     sr.setModel('espcn',4)
     img = np.array(img.convert("RGB"))
@@ -99,7 +99,7 @@ def ESPCN_x4(img):
 
 def FSRCNN_x4(img):
     sr = cv2.dnn_superres.DnnSuperResImpl_create()
-    path = 'models/FSRCNN/FSRCNN_x4.pb'
+    path = 'SR-with-opencv/models/FSRCNN/FSRCNN_x4.pb'
     sr.readModel(path)
     sr.setModel('fsrcnn',4)
     img = np.array(img.convert("RGB"))
@@ -109,7 +109,7 @@ def FSRCNN_x4(img):
 
 def EDSR_x4(img):
     sr = cv2.dnn_superres.DnnSuperResImpl_create()
-    path = 'models/EDSR/EDSR_x4.pb'
+    path = 'SR-with-opencv/models/EDSR/EDSR_x4.pb'
     sr.readModel(path)
     sr.setModel('edsr',4)
     img = np.array(img.convert("RGB"))
@@ -121,7 +121,7 @@ def EDSR_x4(img):
 
 def LapSRN_x8(img):
     sr = cv2.dnn_superres.DnnSuperResImpl_create()
-    path = 'models/LapSRN/LapSRN_x8.pb'
+    path = 'SR-with-opencv/models/LapSRN/LapSRN_x8.pb'
     sr.readModel(path)
     sr.setModel('lapsrn',8)
     img = np.array(img.convert("RGB"))
